@@ -1,0 +1,10 @@
+x=input()
+x = input()
+x=set(x.split())
+y=input()
+y=input()
+y=set(y.split())
+#k=x|y
+m=x.intersection(y)
+#print(len(k))
+print(len(m))
